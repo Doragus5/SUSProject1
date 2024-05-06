@@ -12,7 +12,7 @@ def generate_file_paths(directory, k, output_file):
             f.write(file_path + '\n')
 
 directory = '/home/students/inf/m/ml418309/SUS/SUSProject1/training_samples'
-k = 5000 
+k = 500 
 output_file = 'input.txt'  
 
 generate_file_paths(directory, k, output_file)
